@@ -1,0 +1,8 @@
+{
+  "id": "async_and_threads/thread_started_twice",
+  "category": "async_and_threads",
+  "title": "Starting the same thread object a second time",
+  "exception": "RuntimeError",
+  "message_contains": "threads can only be started once",
+  "fix_summary": "A Thread object can only be started once: create a new Thread for each run."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "timeouts_and_limits/cyclic_structure_recursion",
+  "category": "timeouts_and_limits",
+  "title": "Recursing over data that contains a cycle",
+  "exception": "RecursionError",
+  "message_contains": "maximum recursion depth exceeded",
+  "fix_summary": "The chart points back to the CEO, so the recursion never ends: remove the back reference (or keep a set of visited nodes)."
+}

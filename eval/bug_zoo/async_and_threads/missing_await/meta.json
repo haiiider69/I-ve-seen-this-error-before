@@ -1,0 +1,8 @@
+{
+  "id": "async_and_threads/missing_await",
+  "category": "async_and_threads",
+  "title": "Forgetting to await a coroutine before using its result",
+  "exception": "TypeError",
+  "message_contains": "'coroutine' object is not subscriptable",
+  "fix_summary": "Calling an async function only creates a coroutine: await it to get the result."
+}

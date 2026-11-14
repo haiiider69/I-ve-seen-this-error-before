@@ -1,0 +1,8 @@
+{
+  "id": "timeouts_and_limits/socket_recv_timeout",
+  "category": "timeouts_and_limits",
+  "title": "Waiting for a reply that the other side never sends",
+  "exception": "TimeoutError",
+  "message_contains": "timed out",
+  "fix_summary": "The peer never answers: make it send a reply (or catch TimeoutError and handle the silence)."
+}
