@@ -1,0 +1,8 @@
+{
+  "id": "syntax_errors/inconsistent_indentation",
+  "category": "syntax_errors",
+  "title": "Dedenting a line to a level that matches no enclosing block",
+  "exception": "IndentationError",
+  "message_contains": "unindent does not match any outer indentation level",
+  "fix_summary": "Align the return with the block it belongs to: use the same indentation as the loop or the function body (four spaces per level)."
+}

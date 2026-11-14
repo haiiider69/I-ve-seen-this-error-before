@@ -1,0 +1,8 @@
+{
+  "id": "syntax_errors/missing_colon_after_condition",
+  "category": "syntax_errors",
+  "title": "Leaving out the colon at the end of an if line",
+  "exception": "SyntaxError",
+  "message_contains": "expected ':'",
+  "fix_summary": "Compound statements need a colon at the end of the header line: if count > 3:"
+}

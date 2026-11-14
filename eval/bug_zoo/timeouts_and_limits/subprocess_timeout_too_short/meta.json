@@ -1,0 +1,8 @@
+{
+  "id": "timeouts_and_limits/subprocess_timeout_too_short",
+  "category": "timeouts_and_limits",
+  "title": "Giving a helper command less time than it needs",
+  "exception": "subprocess.TimeoutExpired",
+  "message_contains": "timed out after 0.1 seconds",
+  "fix_summary": "The helper needs about 0.3 seconds: raise the timeout (or make the helper faster)."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "async_and_threads/asyncio_run_inside_coroutine",
+  "category": "async_and_threads",
+  "title": "Calling asyncio.run() from code that already runs in an event loop",
+  "exception": "RuntimeError",
+  "message_contains": "asyncio.run() cannot be called from a running event loop",
+  "fix_summary": "Inside a coroutine, await the other coroutine instead of starting a new event loop."
+}
