@@ -1,0 +1,8 @@
+{
+  "id": "type_errors/missing_return_value",
+  "category": "type_errors",
+  "title": "Forgetting to return a value, then indexing the result",
+  "exception": "TypeError",
+  "message_contains": "'NoneType' object is not subscriptable",
+  "fix_summary": "The function builds the point but never returns it: add 'return point'."
+}

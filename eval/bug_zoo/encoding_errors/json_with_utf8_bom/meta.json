@@ -1,0 +1,8 @@
+{
+  "id": "encoding_errors/json_with_utf8_bom",
+  "category": "encoding_errors",
+  "title": "Parsing JSON that starts with a UTF-8 byte order mark",
+  "exception": "json.decoder.JSONDecodeError",
+  "message_contains": "Unexpected UTF-8 BOM",
+  "fix_summary": "The file was saved with a BOM (typical of Windows editors): decode it with 'utf-8-sig'."
+}

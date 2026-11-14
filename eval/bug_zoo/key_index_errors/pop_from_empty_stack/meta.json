@@ -1,0 +1,8 @@
+{
+  "id": "key_index_errors/pop_from_empty_stack",
+  "category": "key_index_errors",
+  "title": "Popping from an empty stack in a bracket matcher",
+  "exception": "IndexError",
+  "message_contains": "pop from empty list",
+  "fix_summary": "Test that the stack is not empty before popping: a closing bracket may come first."
+}

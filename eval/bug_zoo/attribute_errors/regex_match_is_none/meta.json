@@ -1,0 +1,8 @@
+{
+  "id": "attribute_errors/regex_match_is_none",
+  "category": "attribute_errors",
+  "title": "Calling .group() on the result of a regex that did not match",
+  "exception": "AttributeError",
+  "message_contains": "'NoneType' object has no attribute 'group'",
+  "fix_summary": "re.match returns None when nothing matches: test the result before calling .group()."
+}

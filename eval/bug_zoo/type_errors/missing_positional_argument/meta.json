@@ -1,0 +1,8 @@
+{
+  "id": "type_errors/missing_positional_argument",
+  "category": "type_errors",
+  "title": "Calling a function without one of its required arguments",
+  "exception": "TypeError",
+  "message_contains": "missing 1 required positional argument: 'quantity'",
+  "fix_summary": "Give the parameter a default value (quantity=1) or pass the quantity at every call."
+}

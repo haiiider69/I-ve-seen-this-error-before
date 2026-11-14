@@ -1,0 +1,8 @@
+{
+  "id": "value_errors/date_format_mismatch",
+  "category": "value_errors",
+  "title": "Parsing a date with a format that does not match the text",
+  "exception": "ValueError",
+  "message_contains": "does not match format",
+  "fix_summary": "The text is month/day/year: use the format '%m/%d/%Y' in strptime."
+}

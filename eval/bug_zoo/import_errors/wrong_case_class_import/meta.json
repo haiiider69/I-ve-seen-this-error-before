@@ -1,0 +1,8 @@
+{
+  "id": "import_errors/wrong_case_class_import",
+  "category": "import_errors",
+  "title": "Importing a class with the wrong capitalization",
+  "exception": "ImportError",
+  "message_contains": "cannot import name 'Datetime'",
+  "fix_summary": "The class is datetime.datetime (lowercase): from datetime import datetime."
+}

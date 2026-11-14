@@ -1,0 +1,8 @@
+{
+  "id": "file_path_errors/relative_path_wrong_directory",
+  "category": "file_path_errors",
+  "title": "Reading a file through a relative path that points to the wrong place",
+  "exception": "FileNotFoundError",
+  "message_contains": "No such file or directory: 'settings.ini'",
+  "fix_summary": "The file was written in another folder: read it back through the path that was returned, not a bare relative name."
+}

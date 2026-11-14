@@ -1,0 +1,8 @@
+{
+  "id": "removed_apis/time_clock",
+  "category": "removed_apis",
+  "title": "Using time.clock, removed in Python 3.8",
+  "exception": "AttributeError",
+  "message_contains": "'clock'",
+  "fix_summary": "time.clock() was removed: use time.perf_counter() to measure durations."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "file_path_errors/copy_missing_source_file",
+  "category": "file_path_errors",
+  "title": "Copying a file whose name was mistyped",
+  "exception": "FileNotFoundError",
+  "message_contains": "notes.txt",
+  "fix_summary": "The source is called note.txt, not notes.txt: copy the file that really exists."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "value_errors/sqrt_of_negative_number",
+  "category": "value_errors",
+  "title": "Taking the square root of a negative discriminant",
+  "exception": "ValueError",
+  "message_contains": "math domain error",
+  "fix_summary": "Check that the discriminant is not negative before math.sqrt; there are no real roots otherwise."
+}

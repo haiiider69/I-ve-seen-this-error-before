@@ -1,0 +1,8 @@
+{
+  "id": "unpacking_errors/zip_strict_length_mismatch",
+  "category": "unpacking_errors",
+  "title": "Zipping two lists of different lengths with strict=True",
+  "exception": "ValueError",
+  "message_contains": "zip() argument 2 is shorter than argument 1",
+  "fix_summary": "One score is missing: fill the gap (itertools.zip_longest with a fillvalue) or fix the data."
+}

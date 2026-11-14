@@ -1,0 +1,8 @@
+{
+  "id": "attribute_errors/list_has_no_add",
+  "category": "attribute_errors",
+  "title": "Using the set method add() on a list",
+  "exception": "AttributeError",
+  "message_contains": "'list' object has no attribute 'add'",
+  "fix_summary": "add() belongs to sets: create the collection with set() (or use append() on a list)."
+}

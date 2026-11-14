@@ -1,0 +1,8 @@
+{
+  "id": "encoding_errors/encode_accents_as_ascii",
+  "category": "encoding_errors",
+  "title": "Encoding text with accents as ASCII",
+  "exception": "UnicodeEncodeError",
+  "message_contains": "'ascii' codec can't encode character",
+  "fix_summary": "ASCII cannot represent accented characters: encode with 'utf-8'."
+}

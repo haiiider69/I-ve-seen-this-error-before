@@ -1,0 +1,8 @@
+{
+  "id": "removed_apis/inspect_getargspec",
+  "category": "removed_apis",
+  "title": "Using inspect.getargspec, removed in Python 3.11",
+  "exception": "AttributeError",
+  "message_contains": "'getargspec'",
+  "fix_summary": "getargspec was removed: use inspect.getfullargspec (or inspect.signature)."
+}

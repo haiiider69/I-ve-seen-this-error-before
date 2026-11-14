@@ -1,0 +1,8 @@
+{
+  "id": "type_errors/iterating_dict_instead_of_values",
+  "category": "type_errors",
+  "title": "Looping over a dict and indexing the keys as if they were records",
+  "exception": "TypeError",
+  "message_contains": "string indices must be integers",
+  "fix_summary": "Iterating a dict yields its keys (strings): loop over services.values() instead."
+}

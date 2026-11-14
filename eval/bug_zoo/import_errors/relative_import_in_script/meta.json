@@ -1,0 +1,8 @@
+{
+  "id": "import_errors/relative_import_in_script",
+  "category": "import_errors",
+  "title": "Using a relative import in a file that is run directly",
+  "exception": "ImportError",
+  "message_contains": "attempted relative import with no known parent package",
+  "fix_summary": "Relative imports only work inside a package: run it with python -m, use an absolute import, or define the helper locally."
+}

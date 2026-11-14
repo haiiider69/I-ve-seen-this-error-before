@@ -1,0 +1,8 @@
+{
+  "id": "key_index_errors/off_by_one_range",
+  "category": "key_index_errors",
+  "title": "Looping one step past the end of a list",
+  "exception": "IndexError",
+  "message_contains": "list index out of range",
+  "fix_summary": "range(len(names) + 1) overshoots: use range(len(names)) or iterate over the list directly."
+}

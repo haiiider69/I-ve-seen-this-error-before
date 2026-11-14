@@ -1,0 +1,8 @@
+{
+  "id": "import_errors/python2_urllib2",
+  "category": "import_errors",
+  "title": "Importing urllib2, which only exists in Python 2",
+  "exception": "ModuleNotFoundError",
+  "message_contains": "urllib2",
+  "fix_summary": "urllib2 was split into urllib.request and urllib.error in Python 3: use urllib.request."
+}

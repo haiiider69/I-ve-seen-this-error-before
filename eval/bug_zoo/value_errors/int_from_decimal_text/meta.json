@@ -1,0 +1,8 @@
+{
+  "id": "value_errors/int_from_decimal_text",
+  "category": "value_errors",
+  "title": "Converting text with a decimal point using int()",
+  "exception": "ValueError",
+  "message_contains": "invalid literal for int()",
+  "fix_summary": "int() cannot parse '3.5': parse the values as float (or Decimal) when decimals are possible."
+}

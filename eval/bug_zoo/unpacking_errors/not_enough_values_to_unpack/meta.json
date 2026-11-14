@@ -1,0 +1,8 @@
+{
+  "id": "unpacking_errors/not_enough_values_to_unpack",
+  "category": "unpacking_errors",
+  "title": "Splitting an address that has no port",
+  "exception": "ValueError",
+  "message_contains": "not enough values to unpack (expected 2, got 1)",
+  "fix_summary": "split(':') returns one item when there is no colon: use partition() or supply a default port."
+}

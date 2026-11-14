@@ -1,0 +1,8 @@
+{
+  "id": "value_errors/list_remove_missing_item",
+  "category": "value_errors",
+  "title": "Removing an item that is not in the list",
+  "exception": "ValueError",
+  "message_contains": "x not in list",
+  "fix_summary": "Check 'if product in items' before calling remove(), since remove() raises when absent."
+}

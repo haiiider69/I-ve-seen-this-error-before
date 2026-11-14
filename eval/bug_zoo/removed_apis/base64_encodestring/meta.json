@@ -1,0 +1,8 @@
+{
+  "id": "removed_apis/base64_encodestring",
+  "category": "removed_apis",
+  "title": "Using base64.encodestring, removed in Python 3.9",
+  "exception": "AttributeError",
+  "message_contains": "'encodestring'",
+  "fix_summary": "encodestring was removed: use base64.encodebytes (or b64encode)."
+}

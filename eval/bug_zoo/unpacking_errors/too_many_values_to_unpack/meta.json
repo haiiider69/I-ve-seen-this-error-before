@@ -1,0 +1,8 @@
+{
+  "id": "unpacking_errors/too_many_values_to_unpack",
+  "category": "unpacking_errors",
+  "title": "Unpacking a CSV row that has more fields than variables",
+  "exception": "ValueError",
+  "message_contains": "too many values to unpack (expected 2)",
+  "fix_summary": "The row has three fields: unpack all three (name, age, city) or take only the first two."
+}

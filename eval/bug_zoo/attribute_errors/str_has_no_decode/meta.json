@@ -1,0 +1,8 @@
+{
+  "id": "attribute_errors/str_has_no_decode",
+  "category": "attribute_errors",
+  "title": "Calling .decode() on a str, a Python 2 habit",
+  "exception": "AttributeError",
+  "message_contains": "'str' object has no attribute 'decode'",
+  "fix_summary": "In Python 3 text is already str: drop the decode() call (only bytes can be decoded)."
+}

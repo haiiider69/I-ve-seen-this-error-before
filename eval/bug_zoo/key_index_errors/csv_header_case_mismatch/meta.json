@@ -1,0 +1,8 @@
+{
+  "id": "key_index_errors/csv_header_case_mismatch",
+  "category": "key_index_errors",
+  "title": "Reading a CSV column with a different capitalization than its header",
+  "exception": "KeyError",
+  "message_contains": "Email",
+  "fix_summary": "The header is 'email' in lowercase: use row['email'] (DictReader keys match the header exactly)."
+}
