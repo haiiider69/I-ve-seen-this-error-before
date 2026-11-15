@@ -1,0 +1,210 @@
+{
+  "database": "zoo_memory.db",
+  "bugs": {
+    "async_and_threads/asyncio_run_inside_coroutine": {
+      "error_id": 1,
+      "fingerprint": "88d77fdae2bad182",
+      "script": "fetch_two.py"
+    },
+    "async_and_threads/missing_await": {
+      "error_id": 2,
+      "fingerprint": "f777ce972234b7b7",
+      "script": "load_user.py"
+    },
+    "async_and_threads/thread_started_twice": {
+      "error_id": 3,
+      "fingerprint": "2ce51770729a0239",
+      "script": "run_background.py"
+    },
+    "attribute_errors/list_has_no_add": {
+      "error_id": 4,
+      "fingerprint": "31ee485557a28e35",
+      "script": "collect_distinct.py"
+    },
+    "attribute_errors/regex_match_is_none": {
+      "error_id": 5,
+      "fingerprint": "71f55afebe8c433d",
+      "script": "extract_version.py"
+    },
+    "attribute_errors/str_has_no_decode": {
+      "error_id": 6,
+      "fingerprint": "d569d9d62606c513",
+      "script": "normalize_names.py"
+    },
+    "encoding_errors/ascii_decode_of_utf8": {
+      "error_id": 7,
+      "fingerprint": "ddaccbdad1706d1a",
+      "script": "decode_response.py"
+    },
+    "encoding_errors/encode_accents_as_ascii": {
+      "error_id": 8,
+      "fingerprint": "c5820f73d57c089e",
+      "script": "prepare_customer.py"
+    },
+    "encoding_errors/json_with_utf8_bom": {
+      "error_id": 9,
+      "fingerprint": "3612ed0d9c459ed1",
+      "script": "load_settings.py"
+    },
+    "file_path_errors/copy_missing_source_file": {
+      "error_id": 10,
+      "fingerprint": "7ef5d432daf03448",
+      "script": "back_up.py"
+    },
+    "file_path_errors/missing_output_directory": {
+      "error_id": 11,
+      "fingerprint": "de705248baa3fac6",
+      "script": "write_small.py"
+    },
+    "file_path_errors/relative_path_wrong_directory": {
+      "error_id": 12,
+      "fingerprint": "3041428c9ce9974c",
+      "script": "write_settings.py"
+    },
+    "import_errors/python2_urllib2": {
+      "error_id": 13,
+      "fingerprint": "44c6c24a5dc548fe",
+      "script": "build_request.py"
+    },
+    "import_errors/relative_import_in_script": {
+      "error_id": 14,
+      "fingerprint": "24307dfc348cb31a",
+      "script": "group_list.py"
+    },
+    "import_errors/sibling_module_missing": {
+      "error_id": 15,
+      "fingerprint": "78ae1f43d3ae624d",
+      "script": "turn_article.py"
+    },
+    "import_errors/wrong_case_class_import": {
+      "error_id": 16,
+      "fingerprint": "22d8b594565e4dc2",
+      "script": "report_days.py"
+    },
+    "key_index_errors/csv_header_case_mismatch": {
+      "error_id": 17,
+      "fingerprint": "82ccc3e43b9e9706",
+      "script": "collect_email.py"
+    },
+    "key_index_errors/missing_config_key": {
+      "error_id": 18,
+      "fingerprint": "35835dc9c484640a",
+      "script": "build_database.py"
+    },
+    "key_index_errors/off_by_one_range": {
+      "error_id": 19,
+      "fingerprint": "6524229a31c5411a",
+      "script": "print_numbered.py"
+    },
+    "key_index_errors/pop_from_empty_stack": {
+      "error_id": 20,
+      "fingerprint": "10c2a8feabcd24c0",
+      "script": "check_brackets.py"
+    },
+    "removed_apis/base64_encodestring": {
+      "error_id": 21,
+      "fingerprint": "e6d9f64311f2e593",
+      "script": "encode_small.py"
+    },
+    "removed_apis/collections_mapping": {
+      "error_id": 22,
+      "fingerprint": "201a174fde871c86",
+      "script": "flatten_nested.py"
+    },
+    "removed_apis/inspect_getargspec": {
+      "error_id": 23,
+      "fingerprint": "26609d018a671b94",
+      "script": "list_parameter.py"
+    },
+    "removed_apis/time_clock": {
+      "error_id": 24,
+      "fingerprint": "85f955ed491e9517",
+      "script": "measure_long.py"
+    },
+    "syntax_errors/inconsistent_indentation": {
+      "error_id": 25,
+      "fingerprint": "eac331453fef1dad",
+      "script": "add_up.py"
+    },
+    "syntax_errors/missing_colon_after_condition": {
+      "error_id": 26,
+      "fingerprint": "e9491abcf4fece65",
+      "script": "classify_count.py"
+    },
+    "syntax_errors/unclosed_parenthesis": {
+      "error_id": 27,
+      "fingerprint": "fd8aa94f94c43102",
+      "script": "print_short.py"
+    },
+    "timeouts_and_limits/cyclic_structure_recursion": {
+      "error_id": 28,
+      "fingerprint": "e42af5bb70d14611",
+      "script": "compute_levels.py"
+    },
+    "timeouts_and_limits/socket_recv_timeout": {
+      "error_id": 29,
+      "fingerprint": "f53906626643d19c",
+      "script": "wait_reply.py"
+    },
+    "timeouts_and_limits/subprocess_timeout_too_short": {
+      "error_id": 30,
+      "fingerprint": "329a58d18a03305a",
+      "script": "run_slow.py"
+    },
+    "type_errors/concat_str_and_int": {
+      "error_id": 31,
+      "fingerprint": "74a74be72f09ed50",
+      "script": "print_short_2.py"
+    },
+    "type_errors/iterating_dict_instead_of_values": {
+      "error_id": 32,
+      "fingerprint": "82b42d542d70981c",
+      "script": "print_names.py"
+    },
+    "type_errors/missing_positional_argument": {
+      "error_id": 33,
+      "fingerprint": "f1b3620129dbd19c",
+      "script": "tiny_shopping.py"
+    },
+    "type_errors/missing_return_value": {
+      "error_id": 34,
+      "fingerprint": "a07f7e7f960c0af7",
+      "script": "parse_x.py"
+    },
+    "unpacking_errors/not_enough_values_to_unpack": {
+      "error_id": 35,
+      "fingerprint": "2532f2ec4f8be70b",
+      "script": "split_server.py"
+    },
+    "unpacking_errors/too_many_values_to_unpack": {
+      "error_id": 36,
+      "fingerprint": "69193526ae176aa9",
+      "script": "read_people.py"
+    },
+    "unpacking_errors/zip_strict_length_mismatch": {
+      "error_id": 37,
+      "fingerprint": "eb89bcea0e40c124",
+      "script": "pair_student.py"
+    },
+    "value_errors/date_format_mismatch": {
+      "error_id": 38,
+      "fingerprint": "7332b71f2f57f5ea",
+      "script": "compute_age.py"
+    },
+    "value_errors/int_from_decimal_text": {
+      "error_id": 39,
+      "fingerprint": "7092a4bd873de028",
+      "script": "sum_quantities.py"
+    },
+    "value_errors/list_remove_missing_item": {
+      "error_id": 40,
+      "fingerprint": "bbbcb32625d4e4d4",
+      "script": "remove_sold.py"
+    },
+    "value_errors/sqrt_of_negative_number": {
+      "error_id": 41,
+      "fingerprint": "28867898cb4e9424",
+      "script": "solve_quadratic.py"
+    }
+  }
+}

@@ -24,8 +24,11 @@ from steb.store.database import ErrorStore
 from steb.zoo import Bug
 
 _STOPWORDS = frozenset(
-    "a an the of to from in on for and or with by how many is are that this into at as it its "
-    "be some each every all".split()
+    {
+        "a", "an", "the", "of", "to", "from", "in", "on", "for", "and", "or", "with", "by",
+        "how", "many", "is", "are", "that", "this", "into", "at", "as", "it", "its", "be",
+        "some", "each", "every", "all",
+    }
 )
 _DEFAULT_NAME = "script"
 _NAME_WORDS = 2
